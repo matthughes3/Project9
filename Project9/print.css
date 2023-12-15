@@ -1,0 +1,208 @@
+body{
+    background-color: white ;
+    color:black;
+    font-family: Arial, Helvetica, serif;
+    font-size: medium;
+    width: 100%;
+  }
+  h1{
+    color:black; 
+    text-align:center; 
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 50pt;
+  }
+  h2{
+    color:black; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+    font-size: 24pt;
+    padding-left: 380px;
+  }
+  h3{
+    color:black; 
+    font-family: Arial, Helvetica, serif ;
+  }
+  p{
+    color:black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+       'Lucida Sans', Arial, serif;
+    text-align: left;
+    align-self: start;
+    padding:0px;
+  }
+  blockquote{
+    color:black;
+  }
+  ul{
+    color:black; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+  }
+  li{
+    color: black;
+  }
+  a:link{
+    color:black;
+  }
+  a:visited{
+    color:black;
+  }
+  a:hover{
+    color:black;
+  }
+  .thumbnailleft{
+    display: block;
+    float: left; 
+    padding-right: 10px;
+    display: none;
+  }
+  .thumbnailright{ 
+    display: block;
+    float: right; 
+    padding-left:10px;
+    display: none;
+  }
+  header{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    border: none;
+  }
+  header img{
+    margin: 3px;
+  }
+  .list{
+    display: none;
+    justify-content: center;
+  }
+  .block{
+    display: none;
+    padding: .25em 0.5em;
+    margin: .25em;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    background-color: white;
+  }
+  .underline{
+    text-decoration: none;
+  }
+  section{
+    width:100%;
+    align-self: center;
+    border: none;
+  }
+  footer{
+    background-color: white;
+    padding-top: 0px;
+    border: 3px solid white;
+    width:100%;
+    display: none;
+  }
+  .thumbnailcenter{
+    display: block;
+    align-self: center;
+    justify-content: center;
+    display: none;
+  }
+  #container{
+    width: 900px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #logo{
+    display: block;
+  }
+  .middle{
+    display: block;
+    align-items: center;
+  }
+  .bottomText{
+    text-align: center;
+  }
+  article{
+    width:95%;
+    text-align: left;
+    margin:10px;
+  }
+  .list2{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  .email{
+    display: none;
+    padding: .25em 0.5em;
+    margin: .25em;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    background-color: white;
+    float: right;
+    text-decoration: none;
+    font: bold;
+  }
+  .welcome{
+    display: block;
+    align-self: center;
+    justify-content: center;
+    font-size: large;
+  }
+  #thumbs, #image {
+    width: 800px;
+    border: solid 2px white;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: black;
+    background: white;
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: 0px;
+  }
+  #thumbs {
+    margin-top: 10px;
+  }
+  #thumbs img {
+    border: solid 1px white;
+    margin: 5px;
+  }
+  #image{
+    height:400px;
+  }
+  .instructions{
+    font-style:italic;
+  }
+  .logo{
+    width: 150px;
+    float:left;
+    padding-right:60px;
+  }
+  .more{
+    display: block;
+    border: 3px solid white;
+    border-radius: 1em;
+    padding: .25em 0.5em;
+    margin: .25em;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    text-decoration: none;
+    font-size: bold;
+    width: 115px;
+    margin-left:600px;
+  }
+  .pain{
+    padding-left:380px;
+  }
+  .help{
+    border: 5px solid white;
+    margin-top: 5px;
+    margin-left:330px;
+    display: none;
+  }
+  #print{
+    margin-left:5px;
+  }
+  nav{
+    display: none;
+  }
